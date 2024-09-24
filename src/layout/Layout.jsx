@@ -1,3 +1,4 @@
+import styles from "./Layout.module.css";
 
 function Layout({children}) {
 
@@ -5,11 +6,16 @@ function Layout({children}) {
 
         <>
 
-            <header></header>
+            <header className={styles.header}>
+
+                <h1>Book App</h1>
+                <p>The book app for Hadi.</p>
+
+            </header>
 
                 {children}
 
-            <fouter></fouter>
+            <footer className={styles.footer}><p> Developed by Davoud </p></footer>
 
         </>
 
