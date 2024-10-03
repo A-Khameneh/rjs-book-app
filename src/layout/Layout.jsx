@@ -9,7 +9,7 @@ function Layout({children}) {
             <header className={styles.header}>
 
                 <h1>Book App</h1>
-                <p>The book app for Hadi.</p>
+                <p>The book app...</p>
 
             </header>
 

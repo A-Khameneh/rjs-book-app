@@ -1,4 +1,5 @@
 import Layout from "./layout/Layout";
+import Books from "./components/Books";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
 
       <Layout>
 
-        <h1>Book App Starting files</h1>
+        <Books />
 
       </Layout>
 
